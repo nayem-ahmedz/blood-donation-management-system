@@ -1,0 +1,2 @@
+During our DBMS course, our teacher asked us to prepare a project. We created some group of 2/3 students and started working on it. I with my friend, Hajifa built a website using html and css. That time I just started learning HTML, so we have to take help from somewhere. Chat-GPT was introduced at that time, and I haven taken help from it to create a website using html and css. Later, after learning html and css, I have rebuilt this website. But for one of my Friend named Rahat. View the files in root of this directory.
+Thanks!
