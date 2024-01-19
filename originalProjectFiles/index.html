@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blood Donation Management System</title>
+  <link rel="stylesheet" href="style.css">
+  <!--
+    Non-commercial site, created for university project submission, image used for only testing
+  -->
+</head>
+<body>
+  <header>
+    <h1>Blood Donation Management System</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pages/donors.html">Donors</a></li>
+      <li><a href="pages/donations.html">Donations</a></li>
+      <li><a href="pages/inventory.html">Inventory</a></li>
+      <li><a href="pages/appointments.html">Appointments</a></li>
+      <li><a href="pages/reports.html">Reports</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <aside class="sidebar">
+      <h2 style="text-align: center;">Account</h2>
+      <table style="border: 1px solid blue; border-radius: 20px; background-color: rgb(240, 55, 55);">
+        <tr>
+            <td>
+                <form style="margin: 5px; text-align: center;">
+                    <input type="text/number" name="username" placeholder="username" required>
+                    <input type="password" name="password" placeholder="password" required>
+                    <input type="submit" value="Log in" style="padding: 5px; font-size: 120%;" onclick="document.location='welcomeindex.html' " > <hr>
+                    <p style="background-color: skyblue; padding: 5px; border-radius: 5px;"> <a href="pages/signup.html">Create New Account</a> </p>
+                </form>
+            </td>
+        </tr>
+      </table>
+    </aside>
+
+    <section class="main-section">
+      <h2>Welcome to the Blood Donation Management System!</h2>
+      <p>Manage blood donors, donations, inventory, appointments, and generate reports.</p> <br><br><br><br>
+      <p > <a href="pages/donorRegi.html" style="border-radius: 50px; font-size: 200%; background-color: green; padding: 10px; margin-left:300px;">Donate Blood</a> </p>
+    </section>
+  </div>
+
+  <footer>
+    <p>
+      &copy; 2023 Blood Donation Management System. All rights reserved. <br>
+      <!--
+        <span id="goBackp">Go Back to <a href="https://nayems-world.netlify.app/" id="goBack">Nayem's World</a> </span>
+      -->
+    </p>
+  </footer>
+</body>
+</html>
