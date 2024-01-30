@@ -1,0 +1,157 @@
+/* Homepage */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0; background-color: #eee;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.7); overflow: auto;
+}
+header h1{
+    text-align: center; color: white;
+}
+header p{
+    text-align: center; font-family: verdana; font-size: 18px; color: gray; text-shadow: 0 0 5px red;
+}
+nav{
+    background-color: gray; overflow-x: auto;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-width: 700px;
+}
+nav ul li{
+    float: left;
+}
+nav a:link, nav a:visited{
+    padding: 10px; display: block; text-decoration: none; color: white;
+}
+nav a:hover{
+    background-color: black;
+}
+
+section{
+    border: 1px solid #aaa;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+main{
+    width: 75%; float: right; min-height: 700px;
+    background-image: url('/img/image4.jpg'); background-repeat: no-repeat; background-size: 100% 100%; font-family: verdana; overflow: auto;
+}
+.details{
+    margin: 50px 20px 50px;
+}
+.details h1{
+    margin: 20px auto; font-size: 28px;
+}
+.details p{
+    margin: 20px auto;
+}
+#donate-btn{
+    margin: 100px 40%; border: 1px solid blue; padding: 20px 40px; border-radius: 20px; font-size: 24px; background-color: brown; color: white;
+}
+#donate-btn:hover{
+    background-color: black; cursor: pointer;
+}
+aside{
+    width: 25%; float: left; min-height: 700px;
+}
+.sidebar{
+    max-width: 230px; margin: auto; border: 1px solid red; margin-top: 180px; border-radius: 15px;
+}
+#home-login input, #home-login a{
+    display: block; margin: 10px; width: 90%;
+}
+#home-login input[type=text]{
+    padding: 10px; border-radius: 10px; border: 1px solid gray;
+}
+#home-login input[type=password]{
+    padding: 10px; border-radius: 10px; border: 1px solid gray;
+}
+#home-login #h-signin{
+    width: 90px; margin: auto; padding: 5px; border-radius: 10px; border: 1px solid gray;
+}
+#home-login #h-btn2{
+    text-decoration: none; padding: 5px; background-color: skyblue; margin-top: 20px; margin-bottom: 40px; border-radius: 10px; text-align: center;
+}
+#home-login #h-btn2:hover{
+    background-color: blue; color: white;
+}
+
+
+footer{
+    width: 100%; background-color: black; overflow: auto; padding: 5px;
+}
+footer > p {
+    color: white; text-align: center; font-family: verdana;
+}
+
+.content-area{
+    min-height: 700px; padding: 30px;
+}
+table{
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th, td{
+    padding: 5px;
+}
+.regiForm{
+    max-width: 270px; margin: 20px auto; padding-left: 25px; border: 1px dotted gray; border-radius: 15px;
+}
+.regiForm input{
+    width: 90%; padding: 5px;
+}
+.regiForm #regi-btn{
+    width: 60px; margin-left: 40%; margin-bottom: 30px;
+}
+
+
+
+/*Media screen for small device*/
+@media screen and (max-width: 1400px){
+    main,aside{
+        min-height: 500px;
+    }
+    .content-area{
+        min-height: 670px; padding: 20px;
+    }
+    .sidebar{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 600px){
+    header p{
+        text-align: right; margin-right: 10px;
+    }
+    main, aside{
+        float: none; width: 100%; min-height: 500px;
+    }
+    .details{
+        margin: 30px 5px;
+    }
+    .details h1{
+        font-size: 24px;
+    }
+    #donate-btn{
+        margin: 80px 30%; padding: 10px 20px;
+    }
+    aside{
+        min-height: 350px;
+    }
+    .sidebar{
+        margin-top: 60px;
+    }
+    .content-area{
+        padding: 5px;
+    }
+}
