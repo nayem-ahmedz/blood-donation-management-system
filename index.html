@@ -9,8 +9,36 @@
     <meta name="description" content="Project 1, Blood Donation Management System, created by Nayem Ahmed. This is a modified and completely updated version. Origianally created for a project submission for DBMS course during 3rd Semester at Metropolitan University.">
     <meta name="keywords" content="bdms, blood donation, blood donation system, blood donation management system, project, database management system, web project, nayem, nayem ahmed, nayemscanvas">
     <link rel="stylesheet" href="/styles.css">
+    <script src="/comp/head.js"></script>
 </head>
 <body>
-    <h1>WElcome to Project 1 : Blood Donation Management System.</h1>
+    <div id="header-container"></div>
+    <section class="clearfix">
+        <main>
+            <div class="details">
+                <h1>Welcome to Blood Donation Management System !</h1>
+                <p>Manage blood donors, donations, inventory, appointments, and generate reports.</p>
+                <button onclick="document.location='/pages/donorRegi.html'" id="donate-btn">
+                    Donate
+                </button>
+            </div>
+        </main>
+        <aside>
+            <div class="sidebar">
+                <form id="home-login">
+                    <p style="text-align: center;">Account</p>
+                    <input type="text" id="username" name="username" placeholder="email">
+                    <input type="password" id="password" name="password" placeholder="password">
+                    <input type="submit" value="Log in" id="h-signin">
+                    <a href="/pages/sign-up.html" id="h-btn2">Create a New Account</a>
+                </form>
+            </div>
+        </aside>
+    </section>
+    <footer>
+        <p>
+            © 2024 Blood Donation Management System. All rights reserved.
+        </p>
+    </footer>
 </body>
 </html>
