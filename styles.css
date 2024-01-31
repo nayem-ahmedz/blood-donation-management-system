@@ -12,7 +12,7 @@ header h1{
     text-align: center; color: white;
 }
 header p{
-    text-align: center; font-family: verdana; font-size: 18px; color: gray; text-shadow: 0 0 5px red;
+    text-align: center; color: gray; text-shadow: 0 0 5px red; font-size: 18px; font-family: arial;
 }
 nav{
     background-color: gray; overflow-x: auto;
@@ -55,7 +55,7 @@ main{
     margin: 20px auto;
 }
 #donate-btn{
-    margin: 100px 40%; border: 1px solid blue; padding: 20px 40px; border-radius: 20px; font-size: 24px; background-color: brown; color: white;
+    margin: 100px 40%; padding: 20px 40px; border: none; border-radius: 20px; font-size: 24px; background-color: brown; color: white;
 }
 #donate-btn:hover{
     background-color: black; cursor: pointer;
@@ -94,7 +94,7 @@ footer > p {
 }
 
 .content-area{
-    min-height: 700px; padding: 30px;
+    min-height: 700px; border: 1px solid red; padding: 30px;
 }
 table{
     border-collapse: collapse;
@@ -130,9 +130,6 @@ th, td{
     }
 }
 @media screen and (max-width: 600px){
-    header p{
-        text-align: right; margin-right: 10px;
-    }
     main, aside{
         float: none; width: 100%; min-height: 500px;
     }
