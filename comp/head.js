@@ -1,3 +1,4 @@
+/*
 //for header
 document.addEventListener('DOMContentLoaded', function () {
   // Load Header
@@ -16,3 +17,4 @@ document.addEventListener('DOMContentLoaded', function () {
           console.error('Error fetching header:', error.message);
       });
 });
+*/
