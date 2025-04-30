@@ -8,21 +8,30 @@
     <meta name="author" content="Nayem Ahmed">
     <meta name="description" content="Project 1, Blood Donation Management System, created by Nayem Ahmed. This is a modified and completely updated version. Origianally created for a project submission for DBMS course during 3rd Semester at Metropolitan University.">
     <meta name="keywords" content="bdms, blood donation, blood donation system, blood donation management system, project, database management system, web project, nayem, nayem ahmed, nayemscanvas">
-    <link rel="stylesheet" href="/styles.css">
+    <base href="/blood-donation-management-system/">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="wrapper">
-            <h1>Blood Donation Management System</h1>
-            <p>Donate Blood, Save life!</p>
+        <div class="header-cont wrapper">
+            <div class="header-left">
+                <h1>Blood Donation Management System</h1>
+                <p>Donate Blood, Save life!</p>
+            </div>
             <nav>
-                <ul>
-                    <li> <a href="/index.html">Home</a> </li>
-                    <li> <a href="/pages/donors.html">Donors</a> </li>
-                    <li> <a href="/pages/donations.html">Donations</a> </li>
-                    <li> <a href="/pages/inventory.html">Inventory</a> </li>
-                    <li> <a href="/pages/appointments.html">Appointments</a> </li>
-                    <li> <a href="/pages/reports.html">Reports</a> </li>
+                <div class="nav-bar">
+                    <div class="n-container" onclick="toggleNav(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+                <ul class="top-nav">
+                    <li> <a href="index.php">Home</a> </li>
+                    <li> <a href="pages/donations.php">Donations</a> </li>
+                    <li> <a href="pages/inventory.php">Inventory</a> </li>
+                    <li> <a href="pages/appointments.php">Appointments</a> </li>
+                    <li> <a href="pages/reports.php">Reports</a> </li>
                 </ul>
             </nav>
         </div>

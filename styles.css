@@ -40,6 +40,9 @@ nav a:link, nav a:visited{
 nav a:hover{
     background-color: black;
 }
+.active-link{
+    background-color: rgba(0, 0, 0, 0.35);
+}
 /* included from w3school */
 .nav-bar{
     padding-right: 10px;
@@ -72,7 +75,7 @@ section{
     border: 1px solid #aaa; min-height: 600px;
 }
 section.homepage{
-    width: 100%; background-image: url('/img/image4.jpg'); background-repeat: no-repeat; background-size: 100% 100%;
+    width: 100%; background-image: url('assets/image4.jpg'); background-repeat: no-repeat; background-size: 100% 100%;
 }
 .clearfix::after{
     clear: both;
@@ -126,7 +129,7 @@ aside{
 footer{
     width: 100%; background-color: black; overflow: auto; padding: 5px;
 }
-footer > p {
+footer p{
     color: white; text-align: center; font-family: verdana;
 }
 
