@@ -1,5 +1,6 @@
 var pYear = document.getElementById('pYear');
-pYear.innerHTML = "2024";
+const currentYear = new Date().getFullYear();
+pYear.textContent = '2025';
 
 let nav = document.querySelector('nav');
 function toggleNav(a){

@@ -130,7 +130,10 @@ footer{
     width: 100%; background-color: black; overflow: auto; padding: 5px;
 }
 footer p{
-    color: white; text-align: center; font-family: verdana;
+    color: #eee; text-align: center; font-family: verdana;
+}
+footer a{
+    color: #cef;
 }
 
 .content-area{
